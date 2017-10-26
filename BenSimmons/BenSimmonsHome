@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ben Simmons</title>
+</head>
+<body>
+<body style="background-color:powderblue;">
+
+<h1 style="font-family:comic sans ms;">Ben Simmons</h1>
+
+<a href="links.html">Link Exercises</a>
+<a href="links.html">Link Exercises</a>
+<a href="links.html">Link Exercises</a>
+<a href="links.html">Link Exercises</a>
+<a href="links.html">Link Exercises</a>
+
+<img src="http://cdn.phillymag.com/wp-content/uploads/2016/09/ben-simmons-2016090302.jpg" style="width:500px;height:350px;">
+<p style="font-family:comic sans ms;">By: Noah Shih</p>
+
+
+</body>
+</html>
