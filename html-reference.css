@@ -48,7 +48,10 @@ h4 {
   padding: 10px;
   font-family:Sans-Serif;
 }
+/*Above code changes all the sections after the table*/
+
 #bluecode {
   color: black;
   font-family:Sans-Serif;
 }
+/*Above code changes the word code: */
