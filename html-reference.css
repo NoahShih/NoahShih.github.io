@@ -20,29 +20,35 @@
 /*Above code changes table*/
 
 a {
-    color: blue;
+  color: blue;
+  font-family:Sans-Serif;
 }
 /*Above code changes links*/
 
 h2 {
   Color: black;
+  font-family:Sans-Serif;
 }
 /*Above code changes all the big headings*/
 
 .title {
   color:blue;
+  font-family:Sans-Serif;
 }
 /*Above code changes title*/
 
 h4 {
  color: blue;
+  font-family:Sans-Serif;
 }
 /*changes all the code and information*/
 
 .Infostyle {
   background-color: gray;
   padding: 10px;
+  font-family:Sans-Serif;
 }
 #bluecode {
   color: black;
+  font-family:Sans-Serif;
 }
