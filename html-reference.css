@@ -1,0 +1,45 @@
+.tablestyle {
+  border-collapse: collapse;
+  font-family:Sans-Serif;
+  color:white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.tablestyle th, td {
+  border: 1px solid white;
+}
+
+.tablestyle th {
+  background-color: blue;
+}
+.tablestyle td {
+  background-color: gray;
+}
+/*Above code changes table*/
+
+a {
+    color: blue;
+}
+/*Above code changes links*/
+
+h2 {
+  Color: blue;
+}
+/*Above code changes all the big headings*/
+
+.title {
+  color:blue;
+}
+/*Above code changes title*/
+
+h4 {
+ color: blue;
+}
+/*changes all the code and information*/
+
+.Infostyle {
+  background-color: gray;
+  padding: 10px;
+}
