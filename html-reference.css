@@ -1,4 +1,4 @@
-/*Changes table (1st class style)*/
+/*Changes table*/
 .tablestyle {
   border-collapse: collapse;
   font-family:Sans-Serif;
@@ -25,7 +25,7 @@ a {
   font-family:Sans-Serif;
 }
 
-/*Changes titles (2nd class style)*/
+/*Changes titles*/
 .title {
   color:black;
   font-family:Sans-Serif;
@@ -37,7 +37,7 @@ h4 {
  font-family:Sans-Serif;
 }
 
-/*Changes all the sections after the table (3rd class style)*/
+/*Changes all the sections after the table*/
 .Infostyle {
   background-color: lightgray;
   padding: 10px;
@@ -48,4 +48,9 @@ h4 {
 #bluecode {
   color: black;
   font-family:Sans-Serif;
+}
+.estyle {
+  background-color:	#DCDCDC;
+  border: 1px solid white;
+  padding: 5px;
 }
