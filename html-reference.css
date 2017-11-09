@@ -1,3 +1,4 @@
+/*Changes table (1st class style)*/
 .tablestyle {
   border-collapse: collapse;
   font-family:Sans-Serif;
@@ -17,41 +18,34 @@
 .tablestyle td {
   background-color: gray;
 }
-/*Above code changes table*/
 
+/*Changes links*/
 a {
   color: lightblue;
   font-family:Sans-Serif;
 }
-/*Above code changes links*/
 
-h2 {
-  Color: black;
-  font-family:Sans-Serif;
-}
-/*Above code changes all the big headings*/
-
+/*Changes titles (2nd class style)*/
 .title {
-  color:blue;
+  color:black;
   font-family:Sans-Serif;
 }
-/*Above code changes title*/
 
+/*changes all the code and information (h4 text)*/
 h4 {
  color: blue;
  font-family:Sans-Serif;
 }
-/*changes all the code and information*/
 
+/*Changes all the sections after the table (3rd class style)*/
 .Infostyle {
   background-color: lightgray;
   padding: 10px;
   font-family:Sans-Serif;
 }
-/*Above code changes all the sections after the table*/
 
+/*Changes the word "code:" which is used 14 times*/
 #bluecode {
   color: black;
   font-family:Sans-Serif;
 }
-/*Above code changes the word code: */
