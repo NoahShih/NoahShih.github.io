@@ -25,7 +25,7 @@ a {
 /*Above code changes links*/
 
 h2 {
-  Color: blue;
+  Color: black;
 }
 /*Above code changes all the big headings*/
 
@@ -42,4 +42,7 @@ h4 {
 .Infostyle {
   background-color: gray;
   padding: 10px;
+}
+#bluecode {
+  color: black;
 }
