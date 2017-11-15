@@ -14,11 +14,12 @@
 		left: 10px;
 		z-index: 1;
 		background-position: 0px -1970px;
+		background-size: cover;
 }
 
 .topleft {
 		position:absolute;
-		top: 195px;
+		top: 202px;
 		left: 25px;
 		z-index: 2;
 	}
