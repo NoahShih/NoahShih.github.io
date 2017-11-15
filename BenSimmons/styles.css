@@ -8,7 +8,7 @@
 }
 
 .bgimage1 {
-  background-image: url("https://noahshih.github.io/images/ben-simmons-2016090302.jpg");
+    background-image: url("https://noahshih.github.io/images/ben-simmons-2016090302.jpg");
   	position:absolute;
 		top: 10px;
 		left: 10px;
@@ -16,11 +16,17 @@
 		background-position: 0px -1970px;
 		background-size: cover;
 }
+.ontop { 
+   position: absolute; 
+   top: 300px; 
+   left: 400px; 
+   width: 60%; 
+}
 
 .topleft {
 		position:absolute;
 		top: 202px;
-		left: 25px;
+		left: 625px;
 		z-index: 2;
 	}
 
@@ -30,7 +36,7 @@
 
 .bottomleft {
 		position:absolute;
-		top: 440px;
+		top: 600px;
 		left: 1px;
 		z-index: 2;
 	}
