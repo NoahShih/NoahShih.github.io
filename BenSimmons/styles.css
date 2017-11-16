@@ -47,3 +47,7 @@
 		left: 625px;
 		z-index: 2;
 }
+
+.bigimg {
+  width:100%;
+}
