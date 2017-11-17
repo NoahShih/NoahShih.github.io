@@ -13,63 +13,48 @@ body {
     text-align: center;
 }
 
-/* Style the navigation bars */
-.nav {
+/* Style the top navigation bar */
+.topnav {
     overflow: hidden;
     background-color: #333;
 }
 
-/* Style the nav links */
-.nav a {
+/* Style the topnav links */
+.topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
-    font-size: 14px;
     text-align: center;
-    padding: 10px 10px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-
 /* Change color on hover */
-.nav a:hover:not(.active) {
+.topnav a:hover:not(.active) {
     background-color: #ddd;
     color: black;
 }
 
 /* indicate active page on nav */
-.active {
+#activepage {
     background-color: #4CAF50;
 }
 
 /* A - Create three unequal columns that floats next to each other */
 .column {
+    float: left;
     padding: 10px;
 }
 
-/* Left column */
-.column.left {
-    width: 10%;
-    float: left;
+/* Left and right column */
+.column.side {
+    width: 30%;
 }
 
-/* right column */
-.column.right {
-  margin-top:25%;
-  width: 66%;
-  float:right;
+/* Middle column */
+.column.middle {
+    width: 40%;
 }
-
-.columnright {
-  background-color: lightgray;
-  opacity:0.85;
-  margin-top:25%;
-  width: 66%;
-  float:right;
-  padding:15px;
-  
-}
-
 
 /* Clear floats after the columns */
 .row:after {
