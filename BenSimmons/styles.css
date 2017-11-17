@@ -1,6 +1,16 @@
+
 /*Changes the background color below the nav*/
 .con {
   background-color: #f1f1f1;
+}
+
+
+.bgimage {
+  background: url(https://noahshih.github.io/images/Screenshot%202017-11-17%20at%209.01.47%20AM.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /*Styles table on Explosiveness Page*/
