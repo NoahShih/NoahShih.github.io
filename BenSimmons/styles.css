@@ -21,6 +21,11 @@
   background-size: cover;
 }
 
+/*Changes the color of some of the paragraphs the titles*/
+.white {
+  color:white;
+}
+
 /*Styles table on Explosiveness Page*/
 table, th, td {
    border: 1px solid black;
@@ -32,6 +37,8 @@ table, th, td {
 /*Changes font for title*/
 h1 {
   font-family: Arial;
+  color: white;
+  font-size: 48px;
 }
 
 /*Changes font for the headings*/
