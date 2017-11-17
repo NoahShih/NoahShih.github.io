@@ -1,78 +1,48 @@
-* {
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
 
-body {
-  margin: 0;
-}
+<div class="header">
+  <h1>Ben Simmons</h1>
+  <p>will be the rookie of the year</p>
+</div>
 
-/* Style the header */
-.header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-}
+<div class="topnav">
+  <a class="active" href="index.html">Ben Simmons Home</a>
+  <a href="Explosiveness.html">Explosiveness</a>
+  <a href="Versatility.html">Versatility</a>
+  <a href="Scoring.html">Scoring</a>
+  <a href="Playmaking.html">Playmaking</a>
+  <a href="http://www.nba.com/players/ben/simmons/1627732">NBA Stats</a>
+  <a href="https://www.sports-reference.com/cbb/players/ben-simmons-1.html">College Stats</a>
+  <a href=http://www.espn.com/nba/insider/story/_/id/21416298/is-philadelphia-76ers-ben-simmons-most-versatile-rookie-ever-nba>ESPN Story</a>
+</div>
 
-/* Style the top navigation bar */
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-}
+<div class="con">
 
-/* Style the topnav links */
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+<div class="row">
+  <div class="column side">
+    <img src="https://noahshih.github.io/images/usa_today_10376318.0.jpg" width="100%">
+    <img src="https://noahshih.github.io/images/ben-simmons-2016090302.jpg" width="100%">
+  </div>
+  <div class="column middle">
+    <h2>Background Information</h2>
+    <p>Ben Simmons an American-Australian professional basketball player.  In college, he played for Louisiana State University and he was a first team all american and USBWA National Freshman of the Year.</p>
+    <p>He was drafted as the 1st pick in the 2016 NBA draft by the Philadelphia 76ers.  Ben Simmons’ is very young for an NBA player (only 21 years old).  He has just come back this season (2017-2018) for the first time after a foot injury.  His potential and skill comes from his explosiveness, versatility, scoring ability, and playmaking ability.</p>
+  </div>
+  <div class="column side">
+    <img src="https://noahshih.github.io/images/Ben_Simmons_STACK.jpg" width="100%">
+  </div>
+</div>
+</div>
 
-/* Change color on hover */
-.topnav a:hover:not(.active) {
-    background-color: #ddd;
-    color: black;
-}
-
-/* indicate active page on nav */
-#activepage {
-    background-color: #4CAF50;
-}
-
-/* A - Create three unequal columns that floats next to each other */
-.column {
-    float: left;
-    padding: 10px;
-}
-
-/* Left and right column */
-.column.side {
-    width: 30%;
-}
-
-/* Middle column */
-.column.middle {
-    width: 40%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    .column.side, .column.middle {
-        width: 100%;
-    }
-}
-
-/* Style the footer */
-.footer {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-}
+  
+</body>
+</html>
