@@ -13,6 +13,14 @@
   background-size: cover;
 }
 
+.bgimage2 {
+  background: url(https://noahshih.github.io/images/Screenshot%202017-11-17%20at%209.14.59%20AM.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /*Styles table on Explosiveness Page*/
 table, th, td {
    border: 1px solid black;
