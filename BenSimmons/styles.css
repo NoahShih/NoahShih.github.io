@@ -10,3 +10,26 @@ table, th, td {
    text-align: center;
    background-color: white;
 }
+
+/*Changes font for title*/
+h1 {
+  font-family: Arial;
+}
+
+/*Changes font for the headings*/
+h2 {
+  font-family: Arial;
+}
+
+/*Changes font for paragraphs*/
+h3 {
+  font-family: "Times New Roman";
+}
+
+ul {
+    list-style-type: square;
+    padding: 5;
+    background: white;
+    border-style: solid;
+    border-color: black;
+}
